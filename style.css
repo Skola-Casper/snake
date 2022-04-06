@@ -1,0 +1,47 @@
+#game-board {
+    display: flex;
+    margin-bottom: 10vh;
+}
+
+#game-canvas {
+    height: 75vh;
+}
+
+#score-board {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+    margin-left: 2vh;
+}
+
+#info-container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: white;
+    width: 70%;
+    height: 66vh;
+    margin-left: 2vh;
+    overflow-y: scroll;
+    background-color: #091a1e;
+    padding: 1%;
+    padding-top: 0px;
+}
+
+#game-container {
+    display: flex;
+}
+
+body {
+    background-color: #0B2429;
+    overflow: hidden;
+}
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12vh;
+    color: white;
+    border-bottom: 2px solid white;
+    text-align: center;
+    margin-bottom: 3vh;
+}
